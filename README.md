@@ -16,3 +16,7 @@ wizdom $imdb_id "$subtitle_name_regex"
 ```bash
 wizdom.sh tt0944947 s05 # all of GOT S05 subtitles
 ```
+## With [imdb.sh](https://github.com/assafmo/imdb.sh)
+```bash
+$ wizdom $(imdb "game of thrones") s05
+```
