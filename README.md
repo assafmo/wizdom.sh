@@ -11,7 +11,7 @@ sudo chmod +x /usr/local/bin/wizdom
 
 # Usage
 ```bash
-wizdom <imdb_id> <sub_name_regex>
+wizdom $imdb_id "$subtitle_name_regex"
 ```
 ```bash
 wizdom.sh tt0944947 s05 # all of GOT S05 subtitles
